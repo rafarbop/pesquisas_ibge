@@ -1,4 +1,4 @@
-import {requestPesquisas} from "./requestPesquisa.js";
+import {requestPesquisas} from "/pesquisas_ibge/public/js/requestPesquisa.js";
 
 var pesquisa = document.getElementById("nome_pesquisa");
 var listaPeriodos = document.getElementById("pesquisas_periodos_realizados");

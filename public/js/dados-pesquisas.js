@@ -1,4 +1,4 @@
-import {requestPesquisas} from "./requestPesquisa.js";
+import {requestPesquisas} from "/pesquisas_ibge/public/js/requestPesquisa.js";
 
 var listaPesquisas = document.getElementById("pesquisas_realizadas");
 // Fazendo um request e consultado as pesquisas pre selecionadas
