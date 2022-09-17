@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/bulma/css/bulma.css">
+    <title>Pesquisas IBGE</title>
+</head>
+<body>
+    <header class="box has-background-success has-text-centered">
+        <p class="title has-text-weight-bold has-text-success-dark ">
+            <a href="/">Pesquisas do IBGE</a>
+        </p>
+        <p class="subtitle has-text-grey">Pesquisas Realizadas pelo IBGE com Informações Disponíveis e Públicas → Por Período</p>        
+    </header>
+    <section class="box">
+        <p class="title has-text-centered has-text-success-dark">Pesquisas Realizadas</p>
+        <section class="box content">
+            <ul id="pesquisas_realizadas">
+            </ul>
+        </section>
+    </section>
+
+    <script type="module" src="/public/js/dados-pesquisas.js"></script>
+    <script type="module" src="/public/js/requestPesquisa.js"></script>
+</body>
+</html>
